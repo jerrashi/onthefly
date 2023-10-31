@@ -9,7 +9,7 @@ app.use(express.json())
 app.use(cors())
 
 app.get('/', (req, res) => {
-    res.status(200).send('h1 style = "text-align": center; margin-top: 50px;">✈️ On the Fly API</h1>')
+    res.status(200).send('<h1 style="text-align: center; margin-top: 50px;">✈️ OnTheFly API</h1>')
 })
 
 const PORT = process.env.PORT || 3001
